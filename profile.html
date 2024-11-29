@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>profile Settings</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Profile Settings</h1>
+        <div class="color"></div>
+    </div>
+
+    <div class="profile">
+        <div class="profile-image">
+            <img src="" alt="profilbild" id="profile-img">
+            <div class="button-container">
+                <button id="profile-image-edit-btn">Edit</button>
+                <button id="profile-image-delete-btn">Delete</button>
+                <button id="profile-btn">Profile</button>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" placeholder="Name">
+            
+            <label for="email">E-mailadres:</label>
+            <input type="text" placeholder="E-mail" id="email">
+
+            <label for="role">Profession</label>
+            <input type="text" placeholder="Profession" id="role">
+            
+            <div id="about-me-container">
+                <label for="textarea">About Me</label>
+                <textarea name="test-area" id="text-area"></textarea>
+            </div>
+            <div class="register-button">
+                <button id="save-btn">Save</button>
+                <button id="sign-out">Sign Out</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
