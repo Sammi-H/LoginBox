@@ -79,7 +79,7 @@ signOutButton.addEventListener("click", () => {
         localStorage.removeItem("rememberMe");
     }
 
-    window.location.href = "login.html"; 
+    window.location.href = "index.html"; 
 });
 
 editButton.addEventListener("click", () => {
